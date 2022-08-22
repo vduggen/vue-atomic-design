@@ -17,9 +17,11 @@
       "webpack-env"
     ],
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"],
+      "@atoms": ["src/components/atoms/index"],
+      "@molecules": ["src/components/molecules/index"],
+      "@organisms": ["src/components/organisms/index"],
+      "@bosons": ["src/components/bosons/index"],
     },
     "lib": [
       "esnext",
